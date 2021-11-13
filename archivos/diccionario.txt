@@ -1,0 +1,15 @@
+perro;dog
+gato;cat
+carro;car
+hola;hello
+rojo;red
+azul;blue
+verde;yellow
+blanco;white
+negro;black
+hormiga;ant
+hierro;ironque;what
+que;what
+tiburon;shark
+vaca;cow
+pez;fish
