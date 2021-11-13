@@ -49,9 +49,7 @@ public class OperacionesTexto {
         }        
         return traduccion;
     }
- 
     public String Leer() throws IOException {
-
         FileReader fileReader= null;
         BufferedReader bufferedReader=null;
         String temp = "";
@@ -59,7 +57,6 @@ public class OperacionesTexto {
         try {
                 fileReader = new FileReader(ruta);
                 bufferedReader = new BufferedReader(fileReader);
-                
                 texto+= "\n"+String.format("%11s%16s%n","Español","Ingles")+"\n";
                 while(temp != null){
                     temp = bufferedReader.readLine();
@@ -67,8 +64,7 @@ public class OperacionesTexto {
                         String clave = temp.split(";")[0];
                         String valor = temp.split(";")[1];
                         String resultado = String.format("%10s %5s%10s",clave,"||",valor);
-                        texto += resultado+"\n";
-                        //texto += clave +"    ||    "+valor +"\n";
+                        texto += resultado+"\n";                   
                     }else{
                         break;
                     }

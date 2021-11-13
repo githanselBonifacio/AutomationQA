@@ -1,17 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package traductor;
 
-import java.io.BufferedReader;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
-import javax.swing.JScrollPane;
+
 
 public class Main {
  
@@ -22,7 +17,7 @@ public class Main {
            
             while(true){
         
-                String palabra = JOptionPane.showInputDialog("Ingrese la palagra que quiera traducir");
+                String palabra = JOptionPane.showInputDialog("Ingrese la palabra que quiera traducir");
                 if(opt.ConsultarPalabra(palabra).isEmpty()){
                     JOptionPane.showMessageDialog(null,"Esta palabra no se encuentra en nuestro diccionario");
                     JOptionPane.showMessageDialog(null,opt.Leer()); 
@@ -63,3 +58,45 @@ public class Main {
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

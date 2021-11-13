@@ -13,3 +13,4 @@ que;what
 tiburon;shark
 vaca;cow
 pez;fish
+circulo;circle
