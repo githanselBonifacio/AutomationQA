@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package traductor;
 
 import java.io.BufferedReader;
@@ -28,8 +24,8 @@ public class Main {
                     JOptionPane.showMessageDialog(null,opt.Leer()); 
                     int respuesta = JOptionPane.showConfirmDialog(null, "Desea agregar esta palabra al diccionario?");
                     if(respuesta ==0){
-                        String clave =  JOptionPane.showInputDialog("Escriba la palabra en español: ");
-                        String valor = JOptionPane.showInputDialog("Escriba su traducción al ingles: ");
+                        String clave =  JOptionPane.showInputDialog("Escriba la palabra en espaÃ±ol: ");
+                        String valor = JOptionPane.showInputDialog("Escriba su traducciÃ³n al ingles: ");
                         opt.AgregarPalabra(clave, valor);
                         JOptionPane.showMessageDialog(null,"Palabra agregada con exito!! ");
                         respuesta = JOptionPane.showConfirmDialog(null,"Desea traducir otra palabra?"); 
